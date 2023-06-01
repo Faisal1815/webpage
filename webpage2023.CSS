@@ -1,0 +1,129 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Section styles */
+section {
+  padding: 40px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+section img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact section styles */
+.contact-section {
+  margin-top: 40px;
+}
+
+.contact-item {
+  margin-bottom: 10px;
+}
+
+.contact-label {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Additional styles for a unique look */
+header h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 48px;
+}
+
+#about {
+  background-color: #f4f4f4;
+}
+
+#experience p:first-of-type {
+  font-weight: bold;
+}
+
+.contact-item {
+  font-size: 18px;
+}
+
+.contact-label {
+  color: #555;
+}
+
+footer p {
+  font-size: 14px;
+}
